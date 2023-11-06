@@ -1,0 +1,86 @@
+
+
+.center-div {
+    background-image: url('buildingbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:600px
+}
+
+.right-div {
+    order: 3;
+    background-image: url("background_buildings.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.License{
+    color: wheat;
+    padding-left: 300px;
+    padding-top: 150px;
+    font-size:25px;
+    font-weight:bold;
+}
+.BelowLicense{
+    color: wheat;
+    padding-left: 260px;
+    padding-top: 50px;
+    font-size:25px;
+    font-weight:bold;
+}
+.contact-form{
+    position: absolute;
+    top: 50%;
+    right: 50px; /* adjust the right property as needed */
+    transform: translateY(-50%);
+    text-align: center; /* optional: to center the form elements horizontally */
+    background-color: black; /* set the background color to black */
+    padding: 20px;
+}
+.contact-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.contact-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #4CAF50;
+    color: white;
+}
+.contact-form .form-title {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+.License .second-line:nth-of-type(2) {
+    margin-left: 20px; /* Adjust the indentation value as needed */
+}
+.License span:nth-of-type(3) {
+    margin-left: 65px; /* Adjust the indentation value as needed */
+}
+.BelowLicense span:first-child {
+    margin-left:50px;
+    /* Add your specific styling for the first line of BelowLicense here */
+}
+.Strip1{
+    display:flex;
+    flex-direction: row;
+    background-color:palevioletred;
+    height:70px;
+}
+.Operating, .Offering{
+    flex:1;
+}
+.Operating span:nth-of-type(2) {
+    margin-left: 47px; /* Adjust the margin as needed */
+}
+.Operating span:nth-of-type(1){
+    margin-left: 40px;
+}
+.Offering span:nth-of-type(2){
+    margin-left: 50px;
+}
