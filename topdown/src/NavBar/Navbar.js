@@ -16,21 +16,21 @@ function CollapsibleExample() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features"style={{marginLeft:'25px'}}>About</Nav.Link>
+            <Nav.Link as ={Link} to="/About"style={{marginLeft:'25px'}}>About</Nav.Link>
             <Nav.Link as={Link} to="/reviews"style={{marginLeft:'25px'}}>Reviews</Nav.Link>
             <NavDropdown title="Services" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Roofing</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item as={Link} to="/RoofingServices">Roofing</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/MasonryServices">
                 Masonry
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Siding</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/SidingServices">Siding</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item as={Link} to="/Services">
                 Services Summary
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#features"style={{marginLeft:'25px'}}>Gallery</Nav.Link>
-            <Nav.Link href="#features"style={{marginLeft:'25px'}}>Contact Us</Nav.Link>
+            <Nav.Link as={Link} to="/Gallery"style={{marginLeft:'25px'}}>Gallery</Nav.Link>
+            <Nav.Link as={Link} to="/ContactUs"style={{marginLeft:'25px'}}>Contact Us</Nav.Link>
 
 
           </Nav>

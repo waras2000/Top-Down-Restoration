@@ -1,20 +1,87 @@
 .yelp-review-container {
-    border: 1px solid #e6e6e6;
-    padding: 10px;
-    max-width: 400px;
-    margin: 20px;
-  }
-  
-  .yelp-review-container a {
-    text-decoration: none;
-    color: #0073bb;
-  }
-  
-  .yelp-review-container a:hover {
-    text-decoration: underline;
-  }
-  
-  .yelp-review-container img {
-    width: 30px;
-    margin-right: 10px;
-  }
+  border: 1px solid #e6e6e6;
+  padding: 10px;
+  max-width: 400px;
+  margin: 20px;
+}
+
+.yelp-review-container a {
+  text-decoration: none;
+  color: #0073bb;
+}
+
+.yelp-review-container a:hover {
+  text-decoration: underline;
+}
+
+.yelp-review-container img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.textbox {
+  border: 1px solid #ccc;
+  padding: 1px;
+  margin: 5px;
+  text-align: center;
+  position: relative;
+}
+
+.user-image {
+  width: px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-date {
+  color: #555;
+}
+
+.user-text {
+  margin-top: 10px;
+  max-height: 150px;
+  overflow: hidden;
+  transition: max-height 0.3s ease; /* Smooth transition effect */
+}
+
+.read-more-toggle {
+  display: none;
+}
+
+.read-more-btn {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 5px;
+  display: inline-block;
+}
+
+.read-more-toggle:checked + .user-text {
+  max-height: none; /* Remove the height limit when checked */
+}
+
+.icon-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}

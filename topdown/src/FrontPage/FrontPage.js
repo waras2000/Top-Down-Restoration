@@ -33,22 +33,7 @@ const Body = () => {
     <button type="submit">Submit</button>
 </div>
             </div>
-<div className='Strip1'>
-<div className='Operating'>
-    <span>Brooklyn Based</span>
-    <br />
-    <span>Operating in</span>
-    <br/>
-    <span>Brooklyn, Queens, Manhattan</span>
-</div>
-<div className='Offering'>
-    <span>Offering Roofing</span>
-    <br/>
-    <span>&</span>
-    <br/>
-    <span>Masonry Services</span>
-</div>
-</div>
+
     
 
         </div>
